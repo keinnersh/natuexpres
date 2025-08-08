@@ -1,30 +1,35 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
   <title>Panel Principal - NatuExpress</title>
   <link rel="stylesheet" href="menu.css">
-  <link rel="stylesheet" href="inicio.html">
+  
 </head>
 <body>
   <header>
     <div class="logo">
       <img src="./img/Imagen de WhatsApp 2025-05-14 a las 17.44.15_b445fb03.jpg" alt="Logo NatuExpress">
+      <h1>NatuExpress</h1>
     </div>
-    <div class="salir">
-      <a href="./inicio.html">salir del sistema</a>
-      <p>HOLA BIENVENIDOS</p>
-    </div>
+      <button class="logout" > <a href="inicio.html">Salir</a></button>
   </header>
 
   <main>
-    <section class="menu">
-      <div class="boton">registro salida</div>
-      <div class="boton">inventario</div>
-      <div class="boton">gastos fijos</div>
-      <div class="boton">registro entrada</div>
-      <div class="boton">reportes</div>
-      <div class="boton">ventas</div>
+    <section class="panel">
+      <div class="menu">
+        <div class="boton">Registro salida</div>
+        <div class="boton">Inventario</div>
+        <div class="boton">Registro entrada</div>
+        <div class="boton">Reportes</div>
+        <div class="boton">Gastos fijos</div>
+        <div class="boton">Ventas</div>
+      </div>
+      <div class="grafico">
+        <div class="linea"></div>
+        <div class="pastel"></div>
+        <div class="barras"></div>
+      </div>
     </section>
   </main>
 </body>
