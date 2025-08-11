@@ -3,30 +3,38 @@
 <head>
   <meta charset="UTF-8">
   <title>NatuExpress - Frutas de Calidad</title>
-  <link rel="stylesheet" href="estilo.css">
-   <link rel="stylesheet" href="index.html">
+  <link rel="stylesheet" href="css/estilo.css">
 </head>
 <body>
-  <header>
-    <div class="logo">
+  <header class="header">
+    <div class="header__logo">
       <img src="./img/Imagen de WhatsApp 2025-05-14 a las 17.44.15_b445fb03.jpg" alt="Logo NatuExpress">
+      <span class="header__titulo">NatuExpress</span>
     </div>
-    <nav>
-      <a href="./index.html">acceder</a>
+    <nav class="header__nav">
+      <a href="./index.html" class="header__link">Acceder</a>
     </nav>
   </header>
 
   <main>
     <section class="banner">
-      <img src="./img/ChatGPT Image 14 may 2025, 18_00_35.png" alt="Frutas variadas">
-      <h1>De la mejor calidad</h1>
-    </section>
+  <div class="carousel">
+    <div class="carousel__container">
+      <img src="./imagenes/imagen3.jpg" class="carousel__img" alt="Fruta 1">
+      <img src="./imagenes/imagen5.png" class="carousel__img" alt="Fruta 2">
+      <img src="./imagenes/imagen_index.webp" class="carousel__img" alt="Fruta 3">
+    </div>
+    <button class="carousel__btn carousel__btn--prev">&#10094;</button>
+    <button class="carousel__btn carousel__btn--next">&#10095;</button>
+  </div>
+  <h1 class="banner__titulo">De la mejor calidad</h1>
+</section>
 
-    <section class="galeria-frutas">
-      <div class="fruta"><img src="./img/istockphoto-173612468-612x612.jpg" alt="Mora"></div>
-      <div class="fruta"><img src="./img/7204ebd7-51e8-4481-b982-86ca6da6f8b9.png" alt="Mango"></div>
-      <div class="fruta"><img src="./img/8855ca47-8ffe-4a27-8b90-e02e98bd997b.png" alt="Maracuyá"></div>
-      <div class="fruta"><img src="./img/f73300e2-2567-44df-8a4e-668d017946ba.png" alt="Cereza"></div>
+    <section class="galeria">
+      <div class="galeria__fruta"><img src="./img/istockphoto-173612468-612x612.jpg" alt="Mora"></div>
+      <div class="galeria__fruta"><img src="./img/7204ebd7-51e8-4481-b982-86ca6da6f8b9.png" alt="Mango"></div>
+      <div class="galeria__fruta"><img src="./img/8855ca47-8ffe-4a27-8b90-e02e98bd997b.png" alt="Maracuyá"></div>
+      <div class="galeria__fruta"><img src="./img/f73300e2-2567-44df-8a4e-668d017946ba.png" alt="Cereza"></div>
     </section>
   </main>
 </body>
