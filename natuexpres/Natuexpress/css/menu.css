@@ -16,6 +16,14 @@ header {
   padding: 10px 30px;
 }
 
+.salir{ 
+  text-decoration: none;
+  background-color: white;
+  color: #2e7d32;
+}
+
+
+
 .logo {
   display: flex;
   align-items: center;
