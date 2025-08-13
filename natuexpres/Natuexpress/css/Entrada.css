@@ -1,5 +1,96 @@
-body{
-    background-color: #f0f4c3;
-    color: #1b5e20;
-    font-family: 'Roboto', sans-serif;
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: url(/natuexpres/Natuexpress/imagenes/imagen_index.webp) no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Contenedor principal con efecto vidrio */
+.container {
+    display: flex;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    overflow: hidden;
+    width: 550px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+/* Logo */
+.logo {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}    
+
+.logo img {
+    max-width: 90px;
+}
+
+/* Formulario */
+.form-section {
+    flex: 1;
+    padding: 25px;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 1.8em;
+    color: #333;
+}
+
+input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    font-size: 1em;
+    box-shadow: inset 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Botones */
+.buttons {
+    margin-top: 20px;
+}
+
+.buttons button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    font-size: 0.95em;
+    transition: all 0.3s ease;
+}
+
+.btn-confirmar {
+    background-color: #4CAF50;
+}
+
+.btn-modificar {
+    background-color: #f0ad4e;
+}
+
+.btn-volver {
+    background-color: #d9534f;
+}
+
+
+
+.buttons button:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
 }
